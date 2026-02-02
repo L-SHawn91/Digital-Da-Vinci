@@ -13,7 +13,10 @@ from pydantic import BaseModel
 # 프로젝트 루트 경로 설정
 sys.path.append(os.getcwd())
 
-from fastapi import FastAPI, HTTPException, BackgroundTasks
+from fastapi import FastAPI, HTTPException, BackgroundTasks, Request
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.util import get_remote_address
+from slowapi.errors import RateLimitExceeded
 from projects.ddc.brain.brain_core.chat_engine import ChatEngine, get_chat_engine
 from projects.ddc.brain.neuronet.circadian_rhythm import CircadianRhythm
 from projects.ddc.brain.brain_core.brainstem.advanced_watchdog import AdvancedWatchdog
@@ -23,6 +26,9 @@ import asyncio
 # 로깅 설정
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("D-CNS-API")
+
+# Rate Limiter 설정 (IP당 분당 10회 제한)
+limiter = Limiter(key_func=get_remote_address)
 
 # 전역 엔진 인스턴스
 engine: Optional[ChatEngine] = None
@@ -73,10 +79,14 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(
     title="Digital Da Vinci API",
-    version="5.5.0",
-    description="Digital Central Nervous System Interface",
+    version="0.0.1",
+    description="The Renaissance AI Engine - Digital Central Nervous System",
     lifespan=lifespan
 )
+
+# Rate Limiter 등록
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 # --- 요청/응답 모델 ---
 class ChatRequest(BaseModel):
@@ -100,7 +110,8 @@ async def health_check():
     return {"status": "degraded", "brain": "offline"}
 
 @app.post("/v1/chat", response_model=ChatResponse)
-async def chat_endpoint(req: ChatRequest):
+@limiter.limit("10/minute")
+async def chat_endpoint(request: Request, req: ChatRequest):
     """
     핵심 채팅 인터페이스
     """
@@ -133,7 +144,13 @@ async def chat_endpoint(req: ChatRequest):
         
     except Exception as e:
         logger.error(f"API Error: {e}")
-        raise HTTPException(status_code=500, detail=str(e))
+        # Graceful degradation message
+        return ChatResponse(
+            response="I apologize, but I'm experiencing technical difficulties. Please try again in a moment.",
+            provider="System",
+            latency_ms=0.0,
+            status="error"
+        )
 
 if __name__ == "__main__":
     import uvicorn

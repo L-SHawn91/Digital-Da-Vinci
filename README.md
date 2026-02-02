@@ -1,9 +1,9 @@
-# 🎨 **Digital Da Vinci v1.0.0-Alpha**
+# 🎨 **Digital Da Vinci v0.0.1**
 
 ### **The Renaissance AI Engine (Digital Da Vinci Prototype)**
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-1.0.0--Alpha-brightgreen.svg)]()
+[![Version](https://img.shields.io/badge/Version-0.0.1-brightgreen.svg)]()
 [![Status](https://img.shields.io/badge/Status-Active-blue.svg)]()
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)]()
 
