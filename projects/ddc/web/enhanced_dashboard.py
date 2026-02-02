@@ -18,7 +18,7 @@ from datetime import datetime
 from typing import Dict, Any, List
 
 # 기존 앱 (app.py 확장)
-app = FastAPI(title="SHawn-Brain v5.2.0", version="5.2.0")
+app = FastAPI(title="Digital Da Vinci v0.0.1", version="0.0.1")
 
 # CORS 설정
 app.add_middleware(
@@ -102,7 +102,7 @@ async def get_dashboard_overview() -> Dict[str, Any]:
     """대시보드 개요"""
     return {
         'timestamp': datetime.now().isoformat(),
-        'version': '5.2.0',
+        'version': '0.0.1',
         'status': 'healthy',
         'uptime_seconds': 0,
         'connected_clients': len(dashboard_manager.connected_clients),
@@ -249,7 +249,7 @@ async def get_alerts() -> Dict[str, Any]:
 async def get_performance_report() -> Dict[str, Any]:
     """성능 리포트"""
     return {
-        'version': '5.2.0',
+        'version': '0.0.1',
         'timestamp': datetime.now().isoformat(),
         'improvements': {
             'api_latency': {
@@ -289,7 +289,7 @@ async def get_dashboard():
     <!DOCTYPE html>
     <html>
     <head>
-        <title>SHawn-Brain v5.2.0 Dashboard</title>
+        <title>SHawn-Brain v0.0.1 Dashboard</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
@@ -375,7 +375,7 @@ async def get_dashboard():
             <div class="header">
                 <div>
                     <div class="title">🧠 SHawn-Brain Dashboard</div>
-                    <div class="version">v5.2.0 - Digital Leonardo da Vinci Project</div>
+                    <div class="version">v0.0.1 - Digital Leonardo da Vinci Project</div>
                 </div>
                 <div>
                     <span class="live-indicator"></span>
@@ -512,7 +512,7 @@ async def get_dashboard():
             </div>
 
             <div class="footer">
-                <p>🚀 Digital Leonardo da Vinci Project - v5.2.0 성능 최적화 진행 중</p>
+                <p>🚀 Digital Leonardo da Vinci Project - v0.0.1 성능 최적화 진행 중</p>
                 <p style="font-size: 12px; color: #475569; margin-top: 10px;">
                     Last Update: <span id="last-update">--:--:--</span>
                 </p>

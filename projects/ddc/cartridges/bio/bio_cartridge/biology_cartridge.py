@@ -117,7 +117,7 @@ class BiologyCartridge:
         Initializes the BiologyCartridge.
         """
         self.name = "BiologyCartridge"
-        self.version = "1.0.0"
+        self.version = "0.0.1"  # Prototype Version
         self.author = "Gemini 2.5 Pro for Dr. SHawn"
         self.knowledge_base = knowledge_base if knowledge_base else (KnowledgeBase() if FAISS_AVAILABLE else None)
         

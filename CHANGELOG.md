@@ -1,4 +1,17 @@
-# SHawn-Brain Changelog
+# Digital Da Vinci Changelog
+
+## [v0.0.1] - 2026-02-03 (Prototype Release)
+### 🎯 Major Change
+- **Version Standardization**: System rebranded as Digital Da Vinci v0.0.1 (Prototype)
+- **Unified Version Control**: All components (D-CNS layers, cartridges, APIs) standardized to v0.0.1
+- **Documentation**: Removed legacy documentation and archived files for cleaner codebase
+
+### 📝 Note
+- This is the prototype version (v0.0.1) to clearly indicate the project is in active development
+- All core features from v5.2.1 are preserved
+- Next version upgrade planned after feature completion
+
+---
 
 ## [v5.2.1] - 2026-02-02
 ### 🚀 Added

@@ -21,7 +21,7 @@ DDC = Digital Da Vinci Code
 기술, 과학, 예술의 융합 구조입니다.
 """
 
-__version__ = "5.1.0"
+__version__ = "0.0.1"  # Prototype Version
 __author__ = "Dr. SHawn (이수형)"
 __project__ = "SHawn-Brain (Digital Leonardo da Vinci Project)"
 

@@ -70,7 +70,7 @@ class VersionManager:
     """버전 관리자"""
     
     def __init__(self):
-        self.current_version = Version(5, 4, 0)
+        self.current_version = Version(0, 0, 1)  # Prototype Version
         self.version_history: List[Version] = [self.current_version]
     
     def get_current_version(self) -> str:

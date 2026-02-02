@@ -258,7 +258,7 @@ class AstroCartridge:
         self.stars: Dict[str, Star] = {}
         self.exoplanet_systems: Dict[str, ExoplanetSystem] = {}
         self.missions: Dict[str, SpaceMission] = {}
-        self.version = "1.0.0"
+        self.version = "0.0.1"  # Prototype Version
         self._load_sample_data()
     
     def _load_sample_data(self) -> None:

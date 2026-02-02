@@ -113,10 +113,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: v5.1.0
-          release_name: Release v5.1.0
+          tag_name: v0.0.1
+          release_name: Release v0.0.1 (Prototype)
           body: |
-            ## SHawn-Brain v5.1.0 Release
+            ## Digital Da Vinci v0.0.1 Release (Prototype)
             
             ### Features
             - 🧠 D-CNS 신경계 (4계층)

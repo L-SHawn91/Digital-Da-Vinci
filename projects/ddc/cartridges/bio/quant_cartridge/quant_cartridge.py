@@ -723,8 +723,8 @@ class QuantCartridge:
         
         self.daily_returns: List[float] = []
         self.performance_log: List[Dict[str, Any]] = []
-        
-        self.version = "2.0.0"
+
+        self.version = "0.0.1"  # Prototype Version
         self.created_at = datetime.now()
     
     def register_asset(self, asset: Asset) -> None:

@@ -106,7 +106,7 @@ class ChatResponse(BaseModel):
 async def health_check():
     """시스템 상태 확인"""
     if engine:
-        return {"status": "healthy", "brain": "online", "version": "5.5.0"}
+        return {"status": "healthy", "brain": "online", "version": "0.0.1"}
     return {"status": "degraded", "brain": "offline"}
 
 @app.post("/v1/chat", response_model=ChatResponse)

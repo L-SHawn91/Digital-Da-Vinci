@@ -27,5 +27,5 @@ __all__ = [
     'inv_interface',
 ]
 
-__version__ = "5.1.0"
+__version__ = "0.0.1"  # Prototype Version
 __description__ = "SHawn-Brain Cartridges - 신피질의 전문 기능 영역"

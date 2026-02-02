@@ -27,7 +27,7 @@ def run_dashboard():
 
 def main():
     """Main entry point"""
-    print("🚀 SHawn-BOT v5.3.0 시작 (Integration Mode)...")
+    print("🚀 Digital Da Vinci v0.0.1 (Prototype) 시작 중...")
     
     # 🧠 신경계 시스템 상태
     if NEURAL_SYSTEM_AVAILABLE:

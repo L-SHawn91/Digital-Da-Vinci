@@ -206,7 +206,7 @@ class ConfigManager:
         self.api = APIConfig()
         self.deployment = DeploymentConfig()
         
-        self.version = "1.0"
+        self.version = "0.0.1"  # Prototype Version
         self.last_updated = datetime.now().isoformat()
         self.history = []
     

@@ -32,9 +32,9 @@ from projects.ddc.brain.brain_core.chat_engine import get_chat_engine
 # ============================================================================
 
 app = FastAPI(
-    title="SHawn-Brain API",
-    description="Digital Leonardo da Vinci Project - 신경계 기반 AI 서버",
-    version="5.1.0",
+    title="Digital Da Vinci API",
+    description="Digital Da Vinci v0.0.1 (Prototype) - 신경계 기반 AI 서버",
+    version="0.0.1",
     docs_url="/docs",
     redoc_url="/redoc",
     openapi_url="/openapi.json"
@@ -144,7 +144,7 @@ class NeuralSystemMonitor:
         
         return SystemStatus(
             status="🟢 healthy",
-            version="5.1.0",
+            version="0.0.1",
             uptime=uptime,
             models_available=["Gemini", "Groq", "Claude", "DeepSeek", "OpenRouter"],
             cartridges_active=["bio", "inv", "lit", "quant", "astro"],
@@ -163,9 +163,9 @@ chat_engine = get_chat_engine()
 async def root():
     """루트 엔드포인트"""
     return {
-        "name": "SHawn-Brain API",
-        "project": "Digital Leonardo da Vinci Project",
-        "version": "5.1.0",
+        "name": "Digital Da Vinci API",
+        "project": "Digital Da Vinci v0.0.1 (Prototype)",
+        "version": "0.0.1",
         "status": "🟢 Running",
         "docs": "/docs",
         "health": "/health"
