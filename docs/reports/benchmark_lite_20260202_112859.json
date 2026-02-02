@@ -1,0 +1,15 @@
+{
+  "timestamp": "20260202_112859",
+  "layers": {
+    "L1 Reflexive": {
+      "avg_ms": 14738.48,
+      "status": "✅ Success",
+      "response_preview": "안녕하십니까, Dr. SHawn. D-CNS v5.5 시스템 정상 작동 중입니다.\n\n요청하..."
+    },
+    "L3 Cognitive": {
+      "avg_ms": 17502.44,
+      "status": "✅ Success",
+      "response_preview": "네, Dr. SHawn. D-CNS v5.5의 구조에 대해 설명드리겠습니다.\n\n'구조'에 ..."
+    }
+  }
+}

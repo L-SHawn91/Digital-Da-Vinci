@@ -1,0 +1,18 @@
+{
+  "system": "Hippocampus v1.0",
+  "layers": 3,
+  "health": {
+    "status": "operational",
+    "obsidian_files": 72,
+    "zotero_papers": 12,
+    "pinecone_vectors": 12,
+    "layers": 3,
+    "ready": true
+  },
+  "ready": true,
+  "next_steps": [
+    "Jina AI\ub85c \ucffc\ub9ac \uc784\ubca0\ub529",
+    "Pinecone\uc73c\ub85c \uc758\ubbf8 \uac80\uc0c9",
+    "\uacb0\uacfc \ud1b5\ud569 \ubc0f \ub7ad\ud0b9"
+  ]
+}
