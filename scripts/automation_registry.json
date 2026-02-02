@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "updated_at": "2026-01-15",
+  "rules": {
+    "numbering": "id는 고정 번호이며 새 자동화 스크립트 추가 시 반드시 신규 id로 registry에 등록",
+    "path_scope": "automation_scripts/ 아래의 자동화 스크립트만 등록",
+    "note": "허브(automation_hub.py)는 메뉴/실행기 역할로 목록에서 제외 가능"
+  },
+  "scripts": [
+    {
+      "id": 1,
+      "name": "디렉토리/파일 요약(토큰절약형)",
+      "path": "automation_scripts/summarize_tree.py",
+      "type": "python",
+      "description": "폴더 트리를 깊이/개수 제한으로 요약하고, 파일/폴더 수·총용량·상위 대용량 파일 Top N을 출력합니다.",
+      "run": ["python3", "automation_scripts/summarize_tree.py"],
+      "example_args": ["--path", "/workspace", "--max-depth", "6", "--format", "md", "--top-n", "10"]
+    },
+    {
+      "id": 2,
+      "name": "Git 자동 동기화(add/commit/pull/push)",
+      "path": "automation_scripts/git_sync.py",
+      "type": "python",
+      "description": "git add/commit/pull/push를 한 번에 수행합니다(커밋 메시지 미지정 시 timestamp 기반 자동 메시지).",
+      "run": ["python3", "automation_scripts/git_sync.py"],
+      "example_args": ["\"Auto-sync: quick update\""]
+    },
+    {
+      "id": 900,
+      "name": "자동 실행 결과 리포터(공용 러너, 내부용)",
+      "path": "automation_scripts/run_and_report.py",
+      "type": "python",
+      "hidden": true,
+      "description": "어떤 커맨드든 실행하고 stdout/stderr/exit code를 요약 표시하며 리포트를 파일로 저장합니다(긴 출력은 화면에서 자동 truncation).",
+      "run": ["python3", "automation_scripts/run_and_report.py"],
+      "example_args": ["--name", "demo", "--", "python3", "automation_scripts/summarize_tree.py", "--path", "/workspace"]
+    }
+  ]
+}
+

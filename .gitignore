@@ -1,0 +1,49 @@
+memory/
+.openclaw/workspace/memory/
+40-Sources/MoltMemory/
+40-Sources/SHawnMemory/
+
+# Data & Memory (개인 데이터 폴더 격리)
+memory/
+data/
+outputs/
+daily_logs/
+daily_reports/
+knowledge_base/
+cartridges/*/memory/
+*.db
+*.sqlite
+.cache/
+
+# Logs (실행 로그 차단)
+logs/
+*.log
+bot.log
+uvicorn.log
+
+# Python & Environment
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.Python
+venv/
+env/
+.env
+.env.local
+.env.development
+.env.production
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Large files
+*.mp4
+*.mov
+*.zip
+*.tar.gz

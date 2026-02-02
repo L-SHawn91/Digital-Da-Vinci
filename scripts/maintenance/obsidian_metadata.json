@@ -1,0 +1,290 @@
+{
+  "extracted_at": "2026-01-30T23:21:26.856051",
+  "path": "/Users/soohyunglee/Library/CloudStorage/OneDrive-개인/Obsidian/SHawn",
+  "folders": {
+    "10-Projects": {
+      "weight": 1.5,
+      "md_files": 3,
+      "size_mb": 0.00946807861328125,
+      "files": [
+        {
+          "name": "2026 기초연구사업.md",
+          "relative_path": "2026_NRF_Grant/2026 기초연구사업.md",
+          "size_kb": 0.619140625
+        },
+        {
+          "name": "compass_artifact_wf-443ebc98-fdf9-4120-a40c-1e083ff0df45_text_markdown.md",
+          "relative_path": "2026 세종과학펠로우쉽/compass_artifact_wf-443ebc98-fdf9-4120-a40c-1e083ff0df45_text_markdown.md",
+          "size_kb": 8.4111328125
+        },
+        {
+          "name": "2025년도 과학기술정보통신부 개인기초연구사업 2차.md",
+          "relative_path": "2025_NRF_Grant/2025년도 과학기술정보통신부 개인기초연구사업 2차.md",
+          "size_kb": 0.6650390625
+        }
+      ]
+    },
+    "20-Areas": {
+      "weight": 1.0,
+      "md_files": 8,
+      "size_mb": 0.022530555725097656,
+      "files": [
+        {
+          "name": "4-LC3B_Axis.md",
+          "relative_path": "Estrogen-STK3/4-LC3B_Axis.md",
+          "size_kb": 0.0
+        },
+        {
+          "name": "오가노이드 품질시험법.md",
+          "relative_path": "Organoids/오가노이드 품질시험법.md",
+          "size_kb": 6.7822265625
+        },
+        {
+          "name": "251020 인간 배아의 Carnegie Stage(CS).md",
+          "relative_path": "Reproduction/251020 인간 배아의 Carnegie Stage(CS).md",
+          "size_kb": 7.63671875
+        },
+        {
+          "name": "251008 임신기간 중 mouse sampling 추천.md",
+          "relative_path": "Reproduction/251008 임신기간 중 mouse sampling 추천.md",
+          "size_kb": 5.8759765625
+        },
+        {
+          "name": "Cover letter (NLK).md",
+          "relative_path": "Research_Papers/Cover letter (NLK).md",
+          "size_kb": 2.0693359375
+        },
+        {
+          "name": "GSE241420_PEMD.md",
+          "relative_path": "Bioinformatics/GSE241420_PEMD.md",
+          "size_kb": 0.1083984375
+        },
+        {
+          "name": "바이오 생성형 AI 실무역량 강화 1일차.md",
+          "relative_path": "Bioinformatics/바이오 생성형 AI 실무역량 강화 1일차.md",
+          "size_kb": 0.5205078125
+        },
+        {
+          "name": "GEOdataset.md",
+          "relative_path": "Bioinformatics/GEOdataset.md",
+          "size_kb": 0.078125
+        }
+      ]
+    },
+    "30-Concepts": {
+      "weight": 0.8,
+      "md_files": 9,
+      "size_mb": 0.058892250061035156,
+      "files": [
+        {
+          "name": "AI-Usage.md",
+          "relative_path": "AI-Usage.md",
+          "size_kb": 19.294921875
+        },
+        {
+          "name": "ResearchRabbit.md",
+          "relative_path": "Tools/ResearchRabbit.md",
+          "size_kb": 4.2802734375
+        },
+        {
+          "name": "MasKara.md",
+          "relative_path": "Tools/MasKara.md",
+          "size_kb": 3.9599609375
+        },
+        {
+          "name": "NotebookLM.md",
+          "relative_path": "Tools/NotebookLM.md",
+          "size_kb": 3.287109375
+        },
+        {
+          "name": "Drawing 2025-10-09 17.15.43.excalidraw.md",
+          "relative_path": "Excalidraw/Drawing 2025-10-09 17.15.43.excalidraw.md",
+          "size_kb": 0.560546875
+        },
+        {
+          "name": "20251008 Experiment Design.md",
+          "relative_path": "Excalidraw/20251008 Experiment Design.md",
+          "size_kb": 22.4169921875
+        },
+        {
+          "name": "Drawing 2025-10-14 12.05.32.excalidraw.md",
+          "relative_path": "Excalidraw/Drawing 2025-10-14 12.05.32.excalidraw.md",
+          "size_kb": 0.560546875
+        },
+        {
+          "name": "Drawing 2025-10-14 12.05.31.excalidraw.md",
+          "relative_path": "Excalidraw/Drawing 2025-10-14 12.05.31.excalidraw.md",
+          "size_kb": 0.560546875
+        },
+        {
+          "name": "Drawing 2025-10-02 11.44.38.excalidraw.md",
+          "relative_path": "Excalidraw/Drawing 2025-10-02 11.44.38.excalidraw.md",
+          "size_kb": 5.384765625
+        }
+      ]
+    },
+    "40-Sources": {
+      "weight": 0.9,
+      "md_files": 15,
+      "size_mb": 0.10920524597167969,
+      "files": [
+        {
+          "name": "Endometrial Organoids.md",
+          "relative_path": "Endometrial Organoids.md",
+          "size_kb": 2.6162109375
+        },
+        {
+          "name": "Patient-Derived-Organoid.md",
+          "relative_path": "Patient-Derived-Organoid.md",
+          "size_kb": 2.8017578125
+        },
+        {
+          "name": "FDA Modernization Act 2.0.md",
+          "relative_path": "FDA Modernization Act 2.0.md",
+          "size_kb": 2.7060546875
+        },
+        {
+          "name": "251231 Estrogen-STK34-LC3B_Axis_in_Endometrium.md",
+          "relative_path": "251231 Estrogen-STK34-LC3B_Axis_in_Endometrium.md",
+          "size_kb": 39.181640625
+        },
+        {
+          "name": "GSE161937 Self-renewing Endometrial Epithelial Organoids of the Human Uterus [single-cell RNA-seq data].md",
+          "relative_path": "GSE161937 Self-renewing Endometrial Epithelial Organoids of the Human Uterus [single-cell RNA-seq data].md",
+          "size_kb": 2.5908203125
+        },
+        {
+          "name": "Organoid.md",
+          "relative_path": "Organoid.md",
+          "size_kb": 2.669921875
+        },
+        {
+          "name": "AO-EMO.md",
+          "relative_path": "AO-EMO.md",
+          "size_kb": 2.740234375
+        },
+        {
+          "name": "scRNA-seq.md",
+          "relative_path": "scRNA-seq.md",
+          "size_kb": 2.7490234375
+        },
+        {
+          "name": "kwonEstablishmentCharacterizationEndometrial2025.md",
+          "relative_path": "Zotero/kwonEstablishmentCharacterizationEndometrial2025.md",
+          "size_kb": 5.7470703125
+        },
+        {
+          "name": "caoLabelRetainingStromalCells2015.md",
+          "relative_path": "Zotero/caoLabelRetainingStromalCells2015.md",
+          "size_kb": 3.001953125
+        }
+      ]
+    },
+    "50-Lab": {
+      "weight": 1.3,
+      "md_files": 29,
+      "size_mb": 0.08353519439697266,
+      "files": [
+        {
+          "name": "Organ-on-a-chip.md",
+          "relative_path": "Organ-on-a-chip.md",
+          "size_kb": 2.0859375
+        },
+        {
+          "name": "AGENTS.md",
+          "relative_path": ".ai-agents/gemini-scribe/AGENTS.md",
+          "size_kb": 3.1826171875
+        },
+        {
+          "name": "한글 번역 요청.md",
+          "relative_path": ".ai-agents/gemini-scribe/Agent-Sessions/한글 번역 요청.md",
+          "size_kb": 18.322265625
+        },
+        {
+          "name": "API Key Management.md",
+          "relative_path": ".ai-agents/gemini-scribe/Agent-Sessions/API Key Management.md",
+          "size_kb": 3.2138671875
+        },
+        {
+          "name": "한글 번역 요청-이수형의 MacBook Pro.md",
+          "relative_path": ".ai-agents/gemini-scribe/Agent-Sessions/한글 번역 요청-이수형의 MacBook Pro.md",
+          "size_kb": 9.826171875
+        },
+        {
+          "name": "example-expert.md",
+          "relative_path": ".ai-agents/gemini-scribe/Prompts/example-expert.md",
+          "size_kb": 0.564453125
+        },
+        {
+          "name": "Recent Conversations.md",
+          "relative_path": ".ai-agents/copilot/memory/Recent Conversations.md",
+          "size_kb": 1.7421875
+        },
+        {
+          "name": "전체_폴더_구조@20260122_163654.md",
+          "relative_path": ".ai-agents/copilot/copilot-conversations/전체_폴더_구조@20260122_163654.md",
+          "size_kb": 1.2021484375
+        },
+        {
+          "name": "내용_작성@20260122_234852.md",
+          "relative_path": ".ai-agents/copilot/copilot-conversations/내용_작성@20260122_234852.md",
+          "size_kb": 2.23046875
+        },
+        {
+          "name": "기본_템플레이트_추천해@20260122_231748.md",
+          "relative_path": ".ai-agents/copilot/copilot-conversations/기본_템플레이트_추천해@20260122_231748.md",
+          "size_kb": 3.4541015625
+        }
+      ]
+    },
+    "60-Writing": {
+      "weight": 0.7,
+      "md_files": 8,
+      "size_mb": 0.11429405212402344,
+      "files": [
+        {
+          "name": "AGENTS.md",
+          "relative_path": "Documentation/AGENTS.md",
+          "size_kb": 2.810546875
+        },
+        {
+          "name": "260125 Review paper - Human Endometrial Organoids (HEOs).md",
+          "relative_path": "Documentation/Organoids/260125 Review paper - Human Endometrial Organoids (HEOs).md",
+          "size_kb": 19.7099609375
+        },
+        {
+          "name": "260125 review complete_section2.md",
+          "relative_path": "Documentation/Organoids/260125 review complete_section2.md",
+          "size_kb": 10.703125
+        },
+        {
+          "name": "260125 review_intro_final.md",
+          "relative_path": "Documentation/Organoids/260125 review_intro_final.md",
+          "size_kb": 16.427734375
+        },
+        {
+          "name": "260126 review_paper_comparative EO 논문 분량 배분 계획.md",
+          "relative_path": "Documentation/Organoids/Comparative EO in Mammals/260126 review_paper_comparative EO 논문 분량 배분 계획.md",
+          "size_kb": 17.6044921875
+        },
+        {
+          "name": "260125 review The Need for Developing Endometrial Organoids Across Mammalian Species.md",
+          "relative_path": "Documentation/Organoids/Comparative EO in Mammals/260125 review The Need for Developing Endometrial Organoids Across Mammalian Species.md",
+          "size_kb": 18.548828125
+        },
+        {
+          "name": "260126 review paper - 논문 전체 흐름상 포함해야 할 동물 모델 - 전략적 추천.md",
+          "relative_path": "Documentation/Organoids/Comparative EO in Mammals/260126 review paper - 논문 전체 흐름상 포함해야 할 동물 모델 - 전략적 추천.md",
+          "size_kb": 9.5478515625
+        },
+        {
+          "name": "260125 review Comparative Endometrial Organoid Development in Mammals.md",
+          "relative_path": "Documentation/Organoids/Comparative EO in Mammals/260125 review Comparative Endometrial Organoid Development in Mammals.md",
+          "size_kb": 21.6845703125
+        }
+      ]
+    }
+  },
+  "total_files": 72,
+  "total_size_mb": 0.39792537689208984
+}

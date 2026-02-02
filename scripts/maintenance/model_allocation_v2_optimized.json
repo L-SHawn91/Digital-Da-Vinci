@@ -1,0 +1,352 @@
+{
+  "version": "2.0",
+  "strategy": "Copilot opus/sonnet 회피 + Gemini 적극활용",
+  "timestamp": "2026-02-01T07:46:26.169506",
+  "allocation_table": {
+    "📚 연구/분석 (우선순위: 최고)": {
+      "task": "논문/신경과학/심화분석",
+      "models": [
+        {
+          "rank": "1순위",
+          "model": "gemini-2.5-pro",
+          "usage": "0.1%",
+          "cost": "$0.001",
+          "reason": "최고 성능 + 거의 무료 + Copilot 회피",
+          "score": "10/10",
+          "usage_ratio": "60%"
+        },
+        {
+          "rank": "2순위",
+          "model": "claude-opus-4-5-20251101 (Anthropic API 직접)",
+          "usage": "추적중",
+          "cost": "$0.01",
+          "reason": "고성능 (Copilot 우회)",
+          "score": "9.9/10",
+          "usage_ratio": "20%"
+        },
+        {
+          "rank": "3순위",
+          "model": "gemini-3-pro (신규)",
+          "usage": "프리뷰",
+          "cost": "$0.001",
+          "reason": "최고 성능 테스트",
+          "score": "10/10",
+          "usage_ratio": "20%"
+        }
+      ],
+      "total_cost": "$0.002-0.005",
+      "recommendation": "🟢 Gemini 60% 적극활용!"
+    },
+    "💻 코딩/복잡 알고리즘 (우선순위: 높음)": {
+      "task": "코드 작성, 복잡한 알고리즘, 리팩토링",
+      "models": [
+        {
+          "rank": "1순위",
+          "model": "claude-sonnet-4-5-20250929 (Anthropic API 직접)",
+          "usage": "추적중",
+          "cost": "$0.005",
+          "reason": "Copilot 우회 + 고성능",
+          "score": "9.5/10",
+          "usage_ratio": "50%"
+        },
+        {
+          "rank": "2순위",
+          "model": "gemini-2.0-flash",
+          "usage": "10.9%",
+          "cost": "$0.01",
+          "reason": "빠른 코딩 + Copilot 회피",
+          "score": "8.8/10",
+          "usage_ratio": "30%"
+        },
+        {
+          "rank": "3순위",
+          "model": "github-copilot/claude-haiku-4.5",
+          "usage": "무제한",
+          "cost": "$0",
+          "reason": "간단한 작업 (haiku만)",
+          "score": "7.5/10",
+          "usage_ratio": "20%"
+        }
+      ],
+      "total_cost": "$0.01",
+      "recommendation": "🟡 Copilot은 haiku만 (비용 0)"
+    },
+    "⚡ 긴급/빠른 응답 (우선순위: 높음)": {
+      "task": "초고속 응답 필요, 실시간 처리",
+      "models": [
+        {
+          "rank": "1순위",
+          "model": "llama-3.1-8b-instant (Groq)",
+          "usage": "무료",
+          "cost": "$0",
+          "reason": "초고속 + 무료",
+          "score": "10/10",
+          "usage_ratio": "40%"
+        },
+        {
+          "rank": "2순위",
+          "model": "mistral-large (신규)",
+          "usage": "무료/저가",
+          "cost": "$0-0.001",
+          "reason": "빠른 응답 + 고성능",
+          "score": "9.8/10",
+          "usage_ratio": "35%"
+        },
+        {
+          "rank": "3순위",
+          "model": "qwen/qwen3-32b (Groq)",
+          "usage": "무료",
+          "cost": "$0",
+          "reason": "무료 + 충분한 성능",
+          "score": "9.2/10",
+          "usage_ratio": "25%"
+        }
+      ],
+      "total_cost": "$0",
+      "recommendation": "🟢 Groq 무료 모델 적극활용!"
+    },
+    "📞 일반 대화/채팅": {
+      "task": "일반 대화, 간단한 질문",
+      "models": [
+        {
+          "rank": "1순위",
+          "model": "gemini-2.0-flash",
+          "usage": "10.9%",
+          "cost": "$0.01",
+          "reason": "균형잡힌 성능 + Gemini 활용",
+          "score": "8.8/10",
+          "usage_ratio": "45%"
+        },
+        {
+          "rank": "2순위",
+          "model": "mistral-large (신규)",
+          "usage": "무료",
+          "cost": "$0",
+          "reason": "무료 + 좋은 성능",
+          "score": "8.8/10",
+          "usage_ratio": "35%"
+        },
+        {
+          "rank": "3순위",
+          "model": "gemini-2.0-flash-lite",
+          "usage": "9.0%",
+          "cost": "$0.005",
+          "reason": "경량 + 빠름",
+          "score": "8.2/10",
+          "usage_ratio": "20%"
+        }
+      ],
+      "total_cost": "$0.01",
+      "recommendation": "🟢 Gemini 45%, Mistral 35% 골고루"
+    },
+    "🧬 생물학/의료 이미지 분석": {
+      "task": "세포 이미지, 현미경 사진, 의료 이미지",
+      "models": [
+        {
+          "rank": "1순위",
+          "model": "gemini-2.5-vision (신규)",
+          "usage": "프리뷰",
+          "cost": "$0.001",
+          "reason": "생물학 전문 + 거의 무료",
+          "score": "10/10",
+          "usage_ratio": "60%"
+        },
+        {
+          "rank": "2순위",
+          "model": "gpt-4-vision (신규)",
+          "usage": "유료",
+          "cost": "$0.03",
+          "reason": "고급 이미지 처리",
+          "score": "9.8/10",
+          "usage_ratio": "25%"
+        },
+        {
+          "rank": "3순위",
+          "model": "gemini-2.0-flash (비전)",
+          "usage": "10.9%",
+          "cost": "$0.01",
+          "reason": "대체 + Gemini 활용",
+          "score": "8.5/10",
+          "usage_ratio": "15%"
+        }
+      ],
+      "total_cost": "$0.005-0.01",
+      "recommendation": "🟢 Gemini-Vision 60% (박사님 전문분야!)"
+    },
+    "📊 데이터 분석/SQL/금융": {
+      "task": "데이터 쿼리, SQL, 금융 분석",
+      "models": [
+        {
+          "rank": "1순위",
+          "model": "dbrx-instruct (신규)",
+          "usage": "무료",
+          "cost": "$0",
+          "reason": "데이터 분석 최고 + 무료",
+          "score": "9.9/10",
+          "usage_ratio": "50%"
+        },
+        {
+          "rank": "2순위",
+          "model": "claude-sonnet-4-5 (Anthropic API)",
+          "usage": "추적중",
+          "cost": "$0.005",
+          "reason": "Copilot 우회 + 고성능",
+          "score": "9.5/10",
+          "usage_ratio": "30%"
+        },
+        {
+          "rank": "3순위",
+          "model": "gemini-2.5-pro",
+          "usage": "0.1%",
+          "cost": "$0.001",
+          "reason": "분석 능력 + 거의 무료",
+          "score": "9.2/10",
+          "usage_ratio": "20%"
+        }
+      ],
+      "total_cost": "$0.01",
+      "recommendation": "🟢 dbrx 50% (무료!) + 나머지 골고루"
+    },
+    "🎨 이미지/영상 생성": {
+      "task": "이미지 생성, 영상 생성",
+      "models": [
+        {
+          "rank": "1순위",
+          "model": "imagen-4.0-ultra",
+          "usage": "유료",
+          "cost": "$0.05",
+          "reason": "최고 품질",
+          "score": "9.9/10",
+          "usage_ratio": "60%"
+        },
+        {
+          "rank": "2순위",
+          "model": "veo-3.1-generate",
+          "usage": "베타",
+          "cost": "$0.01",
+          "reason": "영상 생성 최고",
+          "score": "9.5/10",
+          "usage_ratio": "40%"
+        }
+      ],
+      "total_cost": "$0.01-0.05",
+      "recommendation": "🟡 기본만 사용"
+    },
+    "🔧 자동화/스크립트/DevOps": {
+      "task": "자동화 스크립트, 설정 파일, DevOps",
+      "models": [
+        {
+          "rank": "1순위",
+          "model": "gemini-2.0-flash",
+          "usage": "10.9%",
+          "cost": "$0.01",
+          "reason": "빠른 스크립트 생성",
+          "score": "8.8/10",
+          "usage_ratio": "40%"
+        },
+        {
+          "rank": "2순위",
+          "model": "mistral-large (신규)",
+          "usage": "무료",
+          "cost": "$0",
+          "reason": "무료 + 충분한 성능",
+          "score": "8.7/10",
+          "usage_ratio": "35%"
+        },
+        {
+          "rank": "3순위",
+          "model": "github-copilot/claude-haiku-4.5",
+          "usage": "무제한",
+          "cost": "$0",
+          "reason": "간단한 스크립트",
+          "score": "7.8/10",
+          "usage_ratio": "25%"
+        }
+      ],
+      "total_cost": "$0",
+      "recommendation": "🟢 Gemini + Mistral 무료 골고루"
+    }
+  },
+  "monthly_impact": {
+    "기존_전략": {
+      "copilot_opus_sonnet": {
+        "usage_rate": "60-70%",
+        "monthly_cost": "$15,000-18,000",
+        "issue": "Copilot 비용 최소화 안됨"
+      },
+      "gemini": {
+        "usage_rate": "15-20%",
+        "monthly_cost": "$100-200",
+        "issue": "활용 부족"
+      },
+      "groq_무료": {
+        "usage_rate": "10-15%",
+        "monthly_cost": "$0",
+        "issue": "미활용"
+      },
+      "total": "$15,100-18,200"
+    },
+    "신규_전략": {
+      "gemini": {
+        "usage_rate": "40-50%",
+        "monthly_cost": "$50-100",
+        "benefit": "적극활용"
+      },
+      "copilot_haiku": {
+        "usage_rate": "10-15%",
+        "monthly_cost": "$0 (무제한)",
+        "benefit": "haiku만 사용"
+      },
+      "groq_무료": {
+        "usage_rate": "20-25%",
+        "monthly_cost": "$0",
+        "benefit": "골고루 활용"
+      },
+      "claude_api_직접": {
+        "usage_rate": "15-20%",
+        "monthly_cost": "$50-100",
+        "benefit": "Copilot 우회"
+      },
+      "mistral_dbrx": {
+        "usage_rate": "5-10%",
+        "monthly_cost": "$0-10",
+        "benefit": "신규 모델 활용"
+      },
+      "total": "$100-210"
+    },
+    "절감_효과": {
+      "감소": "99.4% (예: $18,000 → $100)",
+      "성능": "보유 (9.5/10 유지)",
+      "다양성": "극대화 (모든 모델 골고루)"
+    }
+  },
+  "implementation_guide": {
+    "Step 1: API 설정": [
+      "✅ Anthropic API (Claude 직접 사용) - 이미 설정됨",
+      "✅ Gemini API (적극활용) - 이미 설정됨",
+      "✅ Groq API (무료) - 이미 설정됨",
+      "✅ Mistral API (신규) - 등록 필요",
+      "✅ Databricks API (dbrx) - 등록 필요"
+    ],
+    "Step 2: 모델별 우선순위 설정": [
+      "1️⃣ Gemini (모든 작업에 40-50% 사용)",
+      "2️⃣ Groq (무료 - 20-25% 사용)",
+      "3️⃣ Claude API 직접 (15-20% 사용)",
+      "4️⃣ 신규 모델 (5-10% 테스트)",
+      "5️⃣ Copilot Haiku (10-15% 기본용)"
+    ],
+    "Step 3: Copilot 회피": [
+      "❌ github-copilot/claude-opus-4.5 금지",
+      "❌ github-copilot/claude-sonnet-4 금지",
+      "✅ github-copilot/claude-haiku-4.5 만 사용",
+      "✅ Anthropic API에서 opus/sonnet 직접 호출"
+    ],
+    "Step 4: 모니터링": [
+      "📊 각 모델별 사용률 추적",
+      "💰 월간 비용 모니터링",
+      "⚡ 성능 지표 추적",
+      "🔄 매주 최적화 조정"
+    ]
+  },
+  "status": "✅ 완료"
+}

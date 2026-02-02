@@ -1,0 +1,44 @@
+{
+  "start_time": "2026-02-01T07:36:11.963903",
+  "operations": [
+    {
+      "type": "remove_venv",
+      "size_mb": 24.439562797546387,
+      "status": "✅ 완료"
+    },
+    {
+      "type": "keep_shawn_env",
+      "size_mb": 436.1743621826172,
+      "status": "✅ 유지"
+    },
+    {
+      "type": "cleanup_pycache",
+      "count": 471,
+      "size_mb": 69.5260534286499,
+      "status": "✅ 완료"
+    },
+    {
+      "type": "cleanup_legacy_cartridges",
+      "files": [
+        "bio_cartridge.py",
+        "bio_cartridge_v2.py",
+        "investment_cartridge.py"
+      ],
+      "size_mb": 0.06029510498046875,
+      "status": "✅ 완료"
+    },
+    {
+      "type": "organize_memory",
+      "folders": [
+        "Daily_Logs",
+        "Archive"
+      ],
+      "status": "✅ 완료"
+    }
+  ],
+  "size_before": 98593777.36448956,
+  "size_after": 369.33857822418213,
+  "files_deleted": 4,
+  "dirs_cleaned": 471,
+  "end_time": "2026-02-01T07:36:12.984669"
+}
