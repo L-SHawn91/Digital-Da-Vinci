@@ -1,0 +1,42 @@
+# 🤖 Digital Da Vinci Cursor Rules
+
+> **Creative AI & Multi-Modal Projects**
+
+---
+
+## 🚀 UV 사용 규칙 (필수)
+
+### Python 패키지 관리
+- **모든 Python 패키지 설치는 `uv`를 사용합니다**
+- ❌ `pip install` 사용 금지
+- ❌ `conda` 사용 금지
+- ❌ `poetry` 사용 금지
+
+### 필수 명령어
+```bash
+# 가상환경 생성
+uv venv
+
+# 패키지 설치
+uv pip install -r requirements.txt
+
+# 개발 모드
+uv pip install -e ".[dev]"
+```
+
+---
+
+## 🎨 AI/ML 패키지
+
+```toml
+dependencies = [
+    "openai>=1.0.0",
+    "anthropic>=0.8.0",
+    "pillow>=10.0.0",
+    "requests>=2.31.0",
+]
+```
+
+---
+
+*UV Rules Applied - 2026-02-09*
